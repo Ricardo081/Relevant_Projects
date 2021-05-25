@@ -1,0 +1,99 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: rgb(255, 225, 192);
+    color: rgb(207, 95, 95);
+    background-image: url(uhd.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+th
+{
+    margin: auto;
+}
+
+.center
+{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.centerTab
+{
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#js
+{
+    text-align: center;
+}
+
+#profPic
+{
+
+    -webkit-transition: -webkit-transform 4s; 
+    -moz-transition: -moz-transform 4s; 
+    -o-transition: -o-transform 4s; 
+    transition: transform 4s;
+}
+#profPic:hover
+{
+    -webkit-transform: rotate(360deg) scale(2, 2); 
+    -moz-transform: rotate(360deg) scale(2, 2);
+    -o-transform: rotate(360deg) scale(2, 2); 
+    transform: rotate(360deg) scale(2, 2);
+}
+
+
+#myName
+{   
+    color: rgb(185, 0, 0);
+}
+
+#github
+{
+    text-decoration: none;
+    color: rgb(185, 0, 0);
+}
+#github:hover
+{
+    color:rgb(0, 0, 0);
+    transition: .5s;
+}
+
+#profPic
+{
+    width: 200px;
+    height: 200px; 
+    padding-right: 10px; 
+    float: left;
+}
+
+#comment textarea
+{
+    margin: 0px;
+    width: 98%;
+    height: 100px;
+    color: rgb(185, 0, 0);
+    background-color: rgb(255, 214, 170);
+    opacity: 60%;
+}
+
+#footer
+{
+    font-family: 'Courier New', Courier, monospace; 
+    text-align: center;
+}
+#footer a
+{
+    color: black; 
+    text-decoration: underline;
+}
