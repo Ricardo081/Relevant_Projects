@@ -10,37 +10,6 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity
 {
-//    This is to log button press
-//    public void clickFunction(View view)
-//    {
-//        Log.i("Info","Button Pressed!");
-//    }
-
-//    This is to log user input from textfield
-//    public void clickFunction(View view)
-//    {
-//        EditText user = (EditText) findViewById(R.id.user);
-//        Log.i("Info", user.getText().toString());
-//    }
-
-//    Make toast
-//    public void clickFunction(View view)
-//    {
-//////        Toast.makeText(this, "Hi, there!", Toast.LENGTH_SHORT).show();
-//        EditText user = (EditText) findViewById(R.id.user);
-//        Log.i("Info", user.getText().toString());
-//        Toast.makeText(this, "Hi there, " +  user.getText().toString() + "!", Toast.LENGTH_SHORT).show();
-//    }
-
-//    Change picture through button press
-//    public void pokeFunction (View view)
-//    {
-//        ImageView image = (ImageView) findViewById(R.id.pokeball);//pokeball is the images id
-//        image.setImageResource(R.drawable.pichu);
-//        Log.i("Test", "Success!!");
-//    }
-
-//    Currency Coverter
     public void exchangeFunction(View view)
     {
         EditText amount = (EditText) findViewById(R.id.amount);
