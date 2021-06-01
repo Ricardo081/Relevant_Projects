@@ -1,6 +1,6 @@
-DROP DATABASE IF EXISTS `sql_elementary_school`;
-CREATE DATABASE `sql_elementary_school`;
-USE `sql_elementary_school`;
+DROP DATABASE IF EXISTS `sql_school`;
+CREATE DATABASE `sql_school`;
+USE `sql_school`;
 
 CREATE TABLE `room`
 (
