@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity
     {
         EditText amount = (EditText) findViewById(R.id.amount);
         Double amountDouble = Double.parseDouble(amount.getText().toString());
-        Double yenAmount = amountDouble * 103.80;
+        Double yenAmount = amountDouble * 110.18;
         Toast.makeText(MainActivity.this, "Yen: " + String.format("%.2f", yenAmount), Toast.LENGTH_SHORT).show();
         Log.i("USD -> YEN", String.format("%.2f", yenAmount));
     }
