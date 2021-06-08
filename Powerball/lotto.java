@@ -118,10 +118,7 @@ public class lotto
                 e.printStackTrace();
             }
         }
-        public void counter(ArrayList<Integer> dbtemp)
-        {
-            
-        }
+
     }
     public static void main(String[] args)
     {
